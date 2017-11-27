@@ -12,26 +12,10 @@
 		B578EE8F1FCC4AFC0097CE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B578EE8E1FCC4AFC0097CE33 /* Assets.xcassets */; };
 		B578EE921FCC4AFC0097CE33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B578EE901FCC4AFC0097CE33 /* Main.storyboard */; };
 		B578EE951FCC4AFC0097CE33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B578EE941FCC4AFC0097CE33 /* main.m */; };
-		B578EEA01FCC4AFC0097CE33 /* FRRectToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B578EE9F1FCC4AFC0097CE33 /* FRRectToolTests.m */; };
-		B578EEAB1FCC4AFC0097CE33 /* FRRectToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B578EEAA1FCC4AFC0097CE33 /* FRRectToolUITests.m */; };
+		B578EEBA1FCC4B420097CE33 /* FRLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = B578EEB91FCC4B420097CE33 /* FRLeftView.m */; };
+		B578EEBD1FCC4B490097CE33 /* FRRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = B578EEBC1FCC4B490097CE33 /* FRRightView.m */; };
+		B578EEC11FCC4EAB0097CE33 /* NSView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B578EEC01FCC4EAB0097CE33 /* NSView+Extension.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B578EE9C1FCC4AFC0097CE33 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B578EE7D1FCC4AFC0097CE33 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B578EE841FCC4AFC0097CE33;
-			remoteInfo = FRRectTool;
-		};
-		B578EEA71FCC4AFC0097CE33 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B578EE7D1FCC4AFC0097CE33 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B578EE841FCC4AFC0097CE33;
-			remoteInfo = FRRectTool;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B578EE851FCC4AFC0097CE33 /* FRRectTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRRectTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,30 +28,16 @@
 		B578EE931FCC4AFC0097CE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B578EE941FCC4AFC0097CE33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B578EE961FCC4AFC0097CE33 /* FRRectTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FRRectTool.entitlements; sourceTree = "<group>"; };
-		B578EE9B1FCC4AFC0097CE33 /* FRRectToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRRectToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B578EE9F1FCC4AFC0097CE33 /* FRRectToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRRectToolTests.m; sourceTree = "<group>"; };
-		B578EEA11FCC4AFC0097CE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B578EEA61FCC4AFC0097CE33 /* FRRectToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRRectToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B578EEAA1FCC4AFC0097CE33 /* FRRectToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRRectToolUITests.m; sourceTree = "<group>"; };
-		B578EEAC1FCC4AFC0097CE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B578EEB81FCC4B420097CE33 /* FRLeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRLeftView.h; sourceTree = "<group>"; };
+		B578EEB91FCC4B420097CE33 /* FRLeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRLeftView.m; sourceTree = "<group>"; };
+		B578EEBB1FCC4B490097CE33 /* FRRightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRRightView.h; sourceTree = "<group>"; };
+		B578EEBC1FCC4B490097CE33 /* FRRightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRRightView.m; sourceTree = "<group>"; };
+		B578EEBF1FCC4EAB0097CE33 /* NSView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSView+Extension.h"; sourceTree = "<group>"; };
+		B578EEC01FCC4EAB0097CE33 /* NSView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B578EE821FCC4AFC0097CE33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B578EE981FCC4AFC0097CE33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B578EEA31FCC4AFC0097CE33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				B578EE871FCC4AFC0097CE33 /* FRRectTool */,
-				B578EE9E1FCC4AFC0097CE33 /* FRRectToolTests */,
-				B578EEA91FCC4AFC0097CE33 /* FRRectToolUITests */,
 				B578EE861FCC4AFC0097CE33 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				B578EE851FCC4AFC0097CE33 /* FRRectTool.app */,
-				B578EE9B1FCC4AFC0097CE33 /* FRRectToolTests.xctest */,
-				B578EEA61FCC4AFC0097CE33 /* FRRectToolUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,10 +66,15 @@
 		B578EE871FCC4AFC0097CE33 /* FRRectTool */ = {
 			isa = PBXGroup;
 			children = (
+				B578EEBE1FCC4E840097CE33 /* Utils */,
 				B578EE881FCC4AFC0097CE33 /* AppDelegate.h */,
 				B578EE891FCC4AFC0097CE33 /* AppDelegate.m */,
 				B578EE8B1FCC4AFC0097CE33 /* ViewController.h */,
 				B578EE8C1FCC4AFC0097CE33 /* ViewController.m */,
+				B578EEB81FCC4B420097CE33 /* FRLeftView.h */,
+				B578EEB91FCC4B420097CE33 /* FRLeftView.m */,
+				B578EEBB1FCC4B490097CE33 /* FRRightView.h */,
+				B578EEBC1FCC4B490097CE33 /* FRRightView.m */,
 				B578EE8E1FCC4AFC0097CE33 /* Assets.xcassets */,
 				B578EE901FCC4AFC0097CE33 /* Main.storyboard */,
 				B578EE931FCC4AFC0097CE33 /* Info.plist */,
@@ -113,22 +84,13 @@
 			path = FRRectTool;
 			sourceTree = "<group>";
 		};
-		B578EE9E1FCC4AFC0097CE33 /* FRRectToolTests */ = {
+		B578EEBE1FCC4E840097CE33 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				B578EE9F1FCC4AFC0097CE33 /* FRRectToolTests.m */,
-				B578EEA11FCC4AFC0097CE33 /* Info.plist */,
+				B578EEBF1FCC4EAB0097CE33 /* NSView+Extension.h */,
+				B578EEC01FCC4EAB0097CE33 /* NSView+Extension.m */,
 			);
-			path = FRRectToolTests;
-			sourceTree = "<group>";
-		};
-		B578EEA91FCC4AFC0097CE33 /* FRRectToolUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B578EEAA1FCC4AFC0097CE33 /* FRRectToolUITests.m */,
-				B578EEAC1FCC4AFC0097CE33 /* Info.plist */,
-			);
-			path = FRRectToolUITests;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +113,6 @@
 			productReference = B578EE851FCC4AFC0097CE33 /* FRRectTool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B578EE9A1FCC4AFC0097CE33 /* FRRectToolTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B578EEB21FCC4AFC0097CE33 /* Build configuration list for PBXNativeTarget "FRRectToolTests" */;
-			buildPhases = (
-				B578EE971FCC4AFC0097CE33 /* Sources */,
-				B578EE981FCC4AFC0097CE33 /* Frameworks */,
-				B578EE991FCC4AFC0097CE33 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B578EE9D1FCC4AFC0097CE33 /* PBXTargetDependency */,
-			);
-			name = FRRectToolTests;
-			productName = FRRectToolTests;
-			productReference = B578EE9B1FCC4AFC0097CE33 /* FRRectToolTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B578EEA51FCC4AFC0097CE33 /* FRRectToolUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B578EEB51FCC4AFC0097CE33 /* Build configuration list for PBXNativeTarget "FRRectToolUITests" */;
-			buildPhases = (
-				B578EEA21FCC4AFC0097CE33 /* Sources */,
-				B578EEA31FCC4AFC0097CE33 /* Frameworks */,
-				B578EEA41FCC4AFC0097CE33 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B578EEA81FCC4AFC0097CE33 /* PBXTargetDependency */,
-			);
-			name = FRRectToolUITests;
-			productName = FRRectToolUITests;
-			productReference = B578EEA61FCC4AFC0097CE33 /* FRRectToolUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,16 +125,6 @@
 					B578EE841FCC4AFC0097CE33 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					B578EE9A1FCC4AFC0097CE33 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B578EE841FCC4AFC0097CE33;
-					};
-					B578EEA51FCC4AFC0097CE33 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B578EE841FCC4AFC0097CE33;
 					};
 				};
 			};
@@ -226,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				B578EE841FCC4AFC0097CE33 /* FRRectTool */,
-				B578EE9A1FCC4AFC0097CE33 /* FRRectToolTests */,
-				B578EEA51FCC4AFC0097CE33 /* FRRectToolUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B578EE991FCC4AFC0097CE33 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B578EEA41FCC4AFC0097CE33 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,41 +164,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B578EE8D1FCC4AFC0097CE33 /* ViewController.m in Sources */,
+				B578EEC11FCC4EAB0097CE33 /* NSView+Extension.m in Sources */,
+				B578EEBA1FCC4B420097CE33 /* FRLeftView.m in Sources */,
 				B578EE951FCC4AFC0097CE33 /* main.m in Sources */,
+				B578EEBD1FCC4B490097CE33 /* FRRightView.m in Sources */,
 				B578EE8A1FCC4AFC0097CE33 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B578EE971FCC4AFC0097CE33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B578EEA01FCC4AFC0097CE33 /* FRRectToolTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B578EEA21FCC4AFC0097CE33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B578EEAB1FCC4AFC0097CE33 /* FRRectToolUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B578EE9D1FCC4AFC0097CE33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B578EE841FCC4AFC0097CE33 /* FRRectTool */;
-			targetProxy = B578EE9C1FCC4AFC0097CE33 /* PBXContainerItemProxy */;
-		};
-		B578EEA81FCC4AFC0097CE33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B578EE841FCC4AFC0097CE33 /* FRRectTool */;
-			targetProxy = B578EEA71FCC4AFC0097CE33 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B578EE901FCC4AFC0097CE33 /* Main.storyboard */ = {
@@ -422,10 +296,10 @@
 				CODE_SIGN_ENTITLEMENTS = FRRectTool/FRRectTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				DEVELOPMENT_TEAM = D3Q47P8R6D;
 				INFOPLIST_FILE = FRRectTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRRectTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frank.recttool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,69 +311,11 @@
 				CODE_SIGN_ENTITLEMENTS = FRRectTool/FRRectTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				DEVELOPMENT_TEAM = D3Q47P8R6D;
 				INFOPLIST_FILE = FRRectTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRRectTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frank.recttool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B578EEB31FCC4AFC0097CE33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRRectToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRRectToolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRRectTool.app/Contents/MacOS/FRRectTool";
-			};
-			name = Debug;
-		};
-		B578EEB41FCC4AFC0097CE33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRRectToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRRectToolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRRectTool.app/Contents/MacOS/FRRectTool";
-			};
-			name = Release;
-		};
-		B578EEB61FCC4AFC0097CE33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRRectToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRRectToolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FRRectTool;
-			};
-			name = Debug;
-		};
-		B578EEB71FCC4AFC0097CE33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = DZQ5YNVEU2;
-				INFOPLIST_FILE = FRRectToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Smartisan.FRRectToolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FRRectTool;
 			};
 			name = Release;
 		};
@@ -520,24 +336,6 @@
 			buildConfigurations = (
 				B578EEB01FCC4AFC0097CE33 /* Debug */,
 				B578EEB11FCC4AFC0097CE33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B578EEB21FCC4AFC0097CE33 /* Build configuration list for PBXNativeTarget "FRRectToolTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B578EEB31FCC4AFC0097CE33 /* Debug */,
-				B578EEB41FCC4AFC0097CE33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B578EEB51FCC4AFC0097CE33 /* Build configuration list for PBXNativeTarget "FRRectToolUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B578EEB61FCC4AFC0097CE33 /* Debug */,
-				B578EEB71FCC4AFC0097CE33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
