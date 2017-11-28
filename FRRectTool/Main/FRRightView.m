@@ -9,7 +9,7 @@
 #import "FRRightView.h"
 
 @interface FRRightView() {
-    NSMutableArray *rectArray;
+    NSArray *rectArray;
 }
 @end
 
@@ -19,13 +19,13 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        rectArray = [NSMutableArray array];
+        //
     }
     return self;
 }
 
-- (void)addDisplayRect:(NSRect)tRect {
-    [rectArray addObject:NSStringFromRect(tRect)];
+- (void)refreshDisplayRects:(NSArray *)tRectArray {
+    rectArray = tRectArray;
     [self setNeedsDisplay:YES];
 }
 
@@ -43,3 +43,5 @@
 }
 
 @end
+
+

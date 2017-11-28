@@ -10,12 +10,14 @@
 #import "FRLeftView.h"
 #import "FRRightView.h"
 #import "NSView+Extension.h"
+#import "FRRectPanel.h"
 
 @interface ViewController() {
     FRLeftView *leftView;
     FRRightView *rightView;
 }
 
+@property (nonatomic,strong) NSMutableArray *rectArray;
 
 @end
 
@@ -23,6 +25,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.rectArray = [NSMutableArray arrayWithCapacity:0];
+    
     leftView = [[FRLeftView alloc] initWithFrame:NSMakeRect(0, 0, 100, self.view.frame.size.height)];
     leftView.addRectBtn.target = self;
     leftView.addRectBtn.action = @selector(addRect:);
@@ -31,20 +35,18 @@
     [self.view addSubview:rightView];
 }
 
-static int a = 1;
-
 - (void)addRect:(id)sender {
-    NSRect lastRect = NSMakeRect(50, 50, 100, 100);
-    lastRect = CGRectOffset(lastRect, 5*a, 5*a);
-    [rightView addDisplayRect:lastRect];
-    a = a+1;
+    FRRectPanel *rectPanel = [[FRRectPanel alloc] initWithContentRect:NSMakeRect(0, 0, 500, 300) styleMask:NSWindowStyleMaskBorderless|NSWindowStyleMaskTitled backing:NSBackingStoreBuffered defer:NO];
+    [self.view.window beginSheet:rectPanel completionHandler:^(NSModalResponse returnCode) {
+        NSLog(@"end panel");
+    }];
+    
+//    [rightView refreshDisplayRects:self.rectArray];
+    
 }
-
-
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
-
     // Update the view, if already loaded.
 }
 

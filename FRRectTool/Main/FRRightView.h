@@ -10,6 +10,7 @@
 
 @interface FRRightView : NSView
 
-- (void)addDisplayRect:(NSRect)tRect;
+
+- (void)refreshDisplayRects:(NSArray *)tRectArray;
 
 @end
